@@ -60,7 +60,7 @@ class Menu extends Component {
         return(
             <>
             <div className = {style.menu}>
-            <AnchorLink offset='70' href='#Home'>Home</AnchorLink>
+                    <AnchorLink offset='70' href='#Home'>Home</AnchorLink>
                     <AnchorLink offset='70' href='#About'>About</AnchorLink>
                     <AnchorLink offset='70' href='#Skill'>Skills</AnchorLink>
                     <AnchorLink  offset='70' href='#Portfolio'>Portfolio</AnchorLink>
