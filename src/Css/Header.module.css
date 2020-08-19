@@ -1,0 +1,195 @@
+.head{
+    position: relative;
+    top: 0;
+    height: 82px;
+    display: flex;
+  /* flex-direction: column; */
+    color: blanchedalmond;
+    background-color: black;
+    opacity: 0.5;
+}
+.Div1{
+    flex: 1;
+    display: flex;
+    color: blanchedalmond;
+    /* opacity: 0.7; */
+    font-size: 250%;
+    /* font-weight: bold; */
+    align-items: center;
+    font-style: oblique;
+    font-family: serif;
+
+/* background-color: brown; */
+}
+.img{
+    height: 60px;
+    width: 250px;
+    margin-left: 3%;
+}
+
+
+.Div2{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 150%;
+    font-weight: 600;
+}
+.Div2 a{
+    text-decoration-line: none;
+    text-decoration: none;
+    color: wheat;
+}
+.Div2 a:hover{
+    color: white;
+    animation: fade-in 1s;
+}
+@keyframes fade-in {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+.Div3{
+   display: none; 
+}
+
+@media only screen and (max-width: 1024px) {
+    .head{
+        position: relative;
+        top: 0;
+      height: 82px;
+      display: flex;
+      /* flex-direction: column; */
+      color: antiquewhite;
+      background-color: black;
+      opacity: 0.7;
+    }
+    .Div1{
+        flex: 1;
+        display: flex;
+        color: blanchedalmond;
+        /* opacity: 0.7; */
+        font-size: 250%;
+        /* font-weight: bold; */
+        align-items: center;
+        font-style: oblique;
+        font-family: serif;
+    
+    /* background-color: brown; */
+    }
+    .img{
+        height: 50px;
+        width: 200px;
+        margin-left: 3%;
+    }
+  
+    .Div2{
+       display: none;
+    }
+    .Div3{
+        position: relative;
+        flex : 1;
+        align-items: center;
+        justify-content: flex-end;
+        display: flex;
+        margin-right: 7%;
+       
+    }
+    .menu{
+        
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        background-color: black;
+        color: blanchedalmond;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        width: 200px;
+        animation: fade-in 1s;
+    }
+    .menu a{
+        flex: 1;
+        margin: 3%;
+        text-decoration: none;
+        text-decoration-line: none;
+        color: wheat;
+    }
+    .menu a:hover{
+        background-color: blanchedalmond;
+        color: black;
+        animation: fade-in 1s;
+        
+    }
+    @keyframes fade-in {
+        from { opacity: 0; }
+          to { opacity: 1; }
+    }
+    @keyframes fade-out {
+        from { opacity: 1; }
+          to { opacity: 0; }
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .head{
+        position: relative;
+        top: 0;
+      height: 82px;
+      display: flex;
+      /* flex-direction: column; */
+      color: antiquewhite;
+      background-color: black;
+      opacity: 0.7;
+    }
+    .Div1{
+        flex: 1;
+        display: flex;
+        color: blanchedalmond;
+        /* opacity: 0.7; */
+        font-size: 200%;
+        /* font-weight: bold; */
+        align-items: center;
+        font-style: oblique;
+        font-family: serif;
+    
+    /* background-color: brown; */
+    }
+    .img{
+        height: 25;
+        width: 100;
+        margin-left: 3%;
+    }
+    .Div2{
+       display: none;
+    }
+    .Div3{
+        position: relative;
+        flex : 1;
+        align-items: center;
+        justify-content: flex-end;
+        display: flex;
+        margin-right: 7%;
+       
+    }
+    .menu{
+        
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        background-color: black;
+        color: blanchedalmond;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        width: 100%;
+        
+    }
+    .menu a{
+        flex: 1;
+        margin: 3%;
+        text-decoration: none;
+        text-decoration-line: none;
+    }
+
+  }

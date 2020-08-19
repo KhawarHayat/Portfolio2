@@ -1,0 +1,116 @@
+.main{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80vh;
+}
+.contactInfo{
+    width: 50%;
+    margin-top: 5%;
+    /* background-color: indigo; */
+}
+.map{
+    width: 50%;
+    /* background-color: red; */
+}
+.info{
+    margin-top: 5%;
+    font-size: 160%;
+    color: #2e2e2e;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+.icon{
+    color: #44b8f2;
+}
+.socialIconMain{
+    margin-top: 10%;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.socialIcon{
+margin: 5%;
+height: 50px;
+width: 50px;
+}
+.socialIcon :hover{
+    height: 50px;
+    width: 50px;
+    color: #44b8f2;
+    }
+.img{
+    margin-top: 5%;
+    height: 400px;
+    width: 600px;
+    border: lightblue solid 3px;
+}
+
+@media only screen and (max-width: 1024px){
+    .main{
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 80vh;
+    }
+    .img{
+        margin-top: 5%;
+        height: 300px;
+        width: 500px;
+        border: lightblue solid 3px;
+    }
+    .contactInfo{
+        width: 100%;
+        margin-top: 5%;
+        /* background-color: indigo; */
+    }
+    .map{
+        width: 100%;
+        /* background-color: red; */
+    }   
+}
+@media only screen and (max-width: 480px){
+    .main{
+        /* margin-left: 10%;
+        margin-right: 10%; */
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
+        height: 80vh;
+    }
+    .img{
+        margin-top: 5%;
+        height: 200px;
+        width: 300px;
+        border: lightblue solid 3px;
+    }
+    .contactInfo{
+        width: 100%;
+        margin-top: 5%;
+        /* background-color: indigo; */
+    }
+    .map{
+        width: 100%;
+        /* background-color: red; */
+    }
+    .socialIconMain{
+        margin-top: 10%;
+        text-decoration: none;
+        text-decoration-line: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .socialIcon{
+    margin: 5%;
+    height: 50px;
+    width: 50px;
+    }
+}

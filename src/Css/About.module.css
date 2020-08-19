@@ -1,0 +1,118 @@
+.Main{
+/* height: 100vh; */
+width: 100%;
+-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+   -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+       animation: fadein 2s;
+
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  /* Firefox < 16 */
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  /* Opera < 12.1 */
+  @-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+h2{
+    font-size: 300%;
+    font-weight: 600;
+    color: gray;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+.picDiv{
+    flex: 1;
+    margin-top: 5%;
+}
+.profile{
+    border-radius: 50%;
+    margin-left: 25%;
+}
+.infoDiv{
+    flex: 2;
+    margin-top: 5%;
+    flex: 2;
+        margin-top: 5%;
+        margin-left: 1%;
+        margin-right: 1%
+    /* background-color: tomato; */
+}
+h3{
+  margin-left: 10%;
+}
+.para{
+    padding: 0% 0% 0% 0%;
+    font-size: 120%;
+    -ms-font-size: 100%;
+    -webkit-font-size: 150%;
+    text-align: justify;
+    line-height: 1.5em;
+    overflow: hidden;
+}
+@media only screen and (max-width: 1024px){
+    .Main{
+        /* height: 100vh; */
+        width: 100%;
+        }
+    h2{
+        font-size: 300%;
+        font-weight: 600;
+        color: gray;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .picDiv{
+        flex: 1;
+    }
+    .profile{
+        border-radius: 50%;
+        margin-left: 5%;
+        border: 1px solid wheat
+    }
+    .infoDiv{
+        flex: 2;
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-right: 2%;      
+    }   
+    h3{
+        margin-left: 10%;
+        font-weight: 400;
+      }
+    .para{
+        padding: 0%;
+        font-size: 150%;
+        text-align: justify;
+        line-height: 1.5em;
+        overflow: hidden;
+    }
+}

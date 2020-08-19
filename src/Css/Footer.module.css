@@ -1,0 +1,29 @@
+.main{
+    height: 100px;
+    width: 100%;
+    background-color: #c9c7c7;
+}
+.p{
+    height: 100px;
+    font-size: 110%;
+    color: #6e6e6e;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 480px){
+    .main{
+        height: 50px;
+        width: 100%;
+        background-color: #c9c7c7;
+    }
+    .p{
+        height: 50px;
+        font-size: 70%;
+        color: #6e6e6e;
+        display : flex;
+        align-items : center;
+        justify-content: center;
+    }   
+}
