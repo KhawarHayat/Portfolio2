@@ -15,10 +15,12 @@ class App extends Component{
     isLoading: true
   }
   componentDidMount(){
-    
+    setInterval(() => {
       this.setState({
         isLoading: false
       })
+    }, 3000)
+      
     
   }
   render(){
