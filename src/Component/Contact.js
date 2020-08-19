@@ -18,7 +18,7 @@ class Contact extends PureComponent {
                     </p>
             </div>
             <div className={style.map}>
-                <img className={style.img} src='Map.png' alt='Map' />
+                <img className={style.img} src='Map.jpg' alt='Map' />
             </div>
             </div>
             </div>
